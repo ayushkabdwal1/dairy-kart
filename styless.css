@@ -1,0 +1,164 @@
+
+*{
+	margin: 0;
+	padding: 0;
+    font-family: "Gilroy";
+	box-sizing: border-box;
+}
+
+html,body{
+	width: 100%;
+	height: 100%
+}
+
+#main{
+	width: 100%;
+    
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    width: 100%;
+    height: 15vh;
+    background-color: #F6F6EE;;
+}
+
+#nav #links{
+    display: flex;
+    gap: 20px;
+}
+
+#links a{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: "PlayFair Display";
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+#nav h3 span{
+    font-weight: 700;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    background-color: #F6F6EE;
+    
+}
+
+#heading h1{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#heading p{
+    font-size: 15px;
+    text-align: center;
+    margin: 30px 0px;
+    width: 50%;
+}
+
+#heading button{
+    padding: 12px 32px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+
+#image{
+    width: 100%;
+}
+
+#image img{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    background-color:#F6F6EE;
+}
+h3{
+    display: flex;
+    justify-content:left;
+    text-align: center;
+}
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+    background-color:#F6F6EE;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+.footer{
+	background-color:#F6F6EE;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+ }
+ 
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: purple;
+	text-decoration:none;
+	font-weight: 300;
+	color:blue;
+	display: block;
+	transition: all 0.3s ease;
+    font-family: cursive;
+}
+.footer-col ul li a:hover{
+	color:black;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color:wheat;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color:black;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: black;
+}
+
+
